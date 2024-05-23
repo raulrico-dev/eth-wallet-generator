@@ -1,0 +1,56 @@
+.generator-container {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    width: 100%;
+    min-width: 210px;
+    max-width: 510px;
+    min-height: 220px;
+
+    background-color: var(--color-dark);
+    color: var(--color-neutral-light);
+    border-radius: 8px;
+}
+
+.heading{
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: x-large;
+    margin-bottom: 16px;
+}
+
+.btn {
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    padding: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.generator-btn {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.wallet-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.wallet-data input {
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: var(--color-neutral-dark);
+    letter-spacing: 0.075em;
+    font-weight: 500;
+}
+
+.input-wrapper {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 16px;
+}

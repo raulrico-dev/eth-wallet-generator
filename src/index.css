@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-white: rgb(251, 251, 251);
+  --color-black: rgb(9, 9, 12);
+  --color-dark: rgb(40, 40, 47);
+  --color-neutral-dark: rgb(62, 62, 71);
+  --color-neutral: rgb(99, 99, 108);
+  --color-neutral-light: rgb(188, 188, 196) ;
+  --color-surface: rgb(234, 234, 234);
+
+  --color-primary: rgb(122, 85, 243);
+  --color-primary-light: rgb(158, 134, 236);
+  --color-primary-dark: rgb(87, 61, 172);
+  
+  --color-secondary: rgb(90, 79, 126);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+html,
+body {
+  background-color: var(--color-black);
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  color: var(--color-white);
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  line-height: 0.25em;
+  letter-spacing: 0.05em;
+  text-wrap: balance;
+}
+p {
+  line-height: 1.5em;
+  letter-spacing: 0.025em;
+  text-wrap: pretty;
+}
