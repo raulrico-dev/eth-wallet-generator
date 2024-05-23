@@ -3,9 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 17px;
-  font-weight: 400;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -21,7 +19,7 @@
 
   --color-primary: rgb(122, 85, 243);
   --color-primary-light: rgb(158, 134, 236);
-  --color-primary-dark: rgb(87, 61, 172);
+  --color-primary-dark: rgb(106, 69, 229);
   
   --color-secondary: rgb(90, 79, 126);
 }
@@ -54,7 +52,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  line-height: 0.25em;
+  line-height: 1.25em;
   letter-spacing: 0.05em;
   text-wrap: balance;
 }
@@ -62,4 +60,11 @@ p {
   line-height: 1.5em;
   letter-spacing: 0.025em;
   text-wrap: pretty;
+}
+
+a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }

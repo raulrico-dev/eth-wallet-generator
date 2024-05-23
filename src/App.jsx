@@ -5,9 +5,7 @@ function App() {
   return (
     <>    
       <section id="root">
-        <main>
           <Generator />
-        </main>
       </section>
     </>
   )
